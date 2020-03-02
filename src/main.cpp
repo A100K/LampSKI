@@ -124,7 +124,7 @@ void setup()
     Serial.begin(9600);
     Serial.println("Starting BLE ...");
 
-    BLEDevice::init("LampSKI");
+    BLEDevice::init("LampSKi");
     BLEServer *pServer = BLEDevice::createServer();
 
     BLEService *pService = pServer->createService(SERVICE_UUID);
